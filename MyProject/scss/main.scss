@@ -87,29 +87,6 @@ main {
     border: $secondary-color 3px solid;
 }
 
-.bio {
-    grid-area: bio;
-    font-size: 1.5rem;
-}
-
-.job-1 {
-    grid-area: job1;
-}
-
-.job-2 {
-    grid-area: job2;
-}
-
-.job-3 {
-    grid-area: job3;
-}
-
-.job {
-    background: lighten($primary-color,5);
-    padding: 0.5rem;
-    border-bottom: $secondary-color 5px solid;
-}
-
 // Work/Projects
 .projects {
     display: grid;
