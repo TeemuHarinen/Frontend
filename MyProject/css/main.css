@@ -219,11 +219,14 @@ main {
 
 @media screen and (max-width: 768px) {
   main {
+    padding: 2rem;
     align-items: center;
     text-align: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      font-size: 5rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -247,7 +250,8 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: 1fr;} }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
